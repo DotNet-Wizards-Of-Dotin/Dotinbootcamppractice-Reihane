@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commen", "Commen", "{9C8FB9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RihTools", "RihTools\RihTools.csproj", "{EEDC7D08-0CFF-49BB-8206-258EE2536837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate_avarage_from_CSV", "Calculate_avarage_from_CSV\Calculate_avarage_from_CSV.csproj", "{3ADF18DA-9EBD-4E39-B01C-97E72EFA254D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{EEDC7D08-0CFF-49BB-8206-258EE2536837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDC7D08-0CFF-49BB-8206-258EE2536837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDC7D08-0CFF-49BB-8206-258EE2536837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADF18DA-9EBD-4E39-B01C-97E72EFA254D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADF18DA-9EBD-4E39-B01C-97E72EFA254D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADF18DA-9EBD-4E39-B01C-97E72EFA254D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADF18DA-9EBD-4E39-B01C-97E72EFA254D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
