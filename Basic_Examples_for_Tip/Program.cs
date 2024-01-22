@@ -11,7 +11,8 @@ namespace Basice_Examples_for_Tip
     {  
         static void Main(string[] args)
         {
-            Console.WriteLine("which method do you want to try ? \n 1.Professional_if \n 2.Array_and_lists ");
+            Console.WriteLine("which method do you want to try ? " +
+                              "\n 1.Professional_if \n 2.Array_and_lists \n 3.substring_example");
 
             int input = Convert.ToInt32(Console.ReadLine());
             if (input == 1)
@@ -22,7 +23,10 @@ namespace Basice_Examples_for_Tip
             {
                 Methods.Array_and_lists();
             }
-
+            else if(input == 3)
+            {
+                Methods.splitter();
+            }
         }
     }
 }

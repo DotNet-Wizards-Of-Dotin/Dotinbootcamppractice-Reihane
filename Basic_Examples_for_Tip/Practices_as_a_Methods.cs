@@ -56,6 +56,15 @@ namespace Basice_Examples_for_Tip
                 Console.WriteLine(k);
             }
         }
+
+        public static void splitter()
+        {
+            //substring example
+            Console.WriteLine("enter your fullname");
+            var Fullname = Console.ReadLine();
+            string[] splitednames = Fullname.Split(' ');
+            Console.WriteLine($"our firstname is {splitednames[0]} and your lastname is {splitednames[1]}");
+        }
     }
 }
 
