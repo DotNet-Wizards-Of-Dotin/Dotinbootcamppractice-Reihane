@@ -59,19 +59,24 @@ namespace Basice_Examples_for_Tip
         }
         public static void splitter()
         {
-            //substring example
             Console.WriteLine("enter your fullname");
             var Fullname = Console.ReadLine();
-            string[] splitednames = Fullname.Split(' ');
-            if (splitednames.Length == 2)
-            {
-                Console.WriteLine($"our firstname is {splitednames[0]} and your lastname is {splitednames[1]}");
+            // which index have ' '(space)?
+            //page 178 nutshell +page 10 nutshell
+            int spaceIndex = Fullname.IndexOf(' ');
 
+            if (spaceIndex != -1)
+            {
+                string firstName = Fullname.Substring(0, spaceIndex);
+                string lastName = Fullname.Substring(spaceIndex + 1);
+
+                Console.WriteLine($"your firstname is {firstName} and your lastname is {lastName}");
             }
             else
             {
-                Console.WriteLine("invalid fullname format");
+                Console.WriteLine("please use space for splitting your first &lastname");
             }
+
         }
         public static void StartAgain()
         {
