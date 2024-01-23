@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 
@@ -56,14 +57,27 @@ namespace Basice_Examples_for_Tip
                 Console.WriteLine(k);
             }
         }
-
         public static void splitter()
         {
             //substring example
             Console.WriteLine("enter your fullname");
             var Fullname = Console.ReadLine();
             string[] splitednames = Fullname.Split(' ');
-            Console.WriteLine($"our firstname is {splitednames[0]} and your lastname is {splitednames[1]}");
+            if (splitednames.Length == 2)
+            {
+                Console.WriteLine($"our firstname is {splitednames[0]} and your lastname is {splitednames[1]}");
+
+            }
+            else
+            {
+                Console.WriteLine("invalid fullname format");
+            }
+        }
+        public static void StartAgain()
+        {
+            Console.WriteLine("Restarting in 3 seconds...");
+            Thread.Sleep(3000);
+            Console.Clear(); 
         }
     }
 }

@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commen\RihTools\RihTools.csproj">
+      <Project>{d8ec11c5-0fbe-4062-9f42-84e4027aa222}</Project>
+      <Name>RihTools</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
