@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyNamespace // Same unique namespace name as in the class
+namespace MyNamespace 
 {
     internal class Program
     {
