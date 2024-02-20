@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body {
+    background: url(http://insightreport.debeersgroup.com/_images/backgrounds/global-consumer-demand-bg.jpg);
+}
+
+/*.container {
+    width: 900px;
+    margin: 0 auto;
+}*/
+
+.Booksize {
+    position: relative;
+    width: 300px;
+    float: left;
+   
+}
+    .Booksize:hover {
+        border: 7px solid black;
+        background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3));
+        border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='150' height='150' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+ 
+        padding: 5px;
+    }
+
+
+
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    -webkit-transition: .5s ease-out;
+}
+
+   /* .info p {
+        color: #fff;
+    }
+
+    .info:hover {
+        margin-top: 0;
+        opacity: 1;
+    }
+       */
