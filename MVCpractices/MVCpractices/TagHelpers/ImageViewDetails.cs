@@ -11,7 +11,7 @@ namespace MVCpractices.TagHelpers
             output.TagMode = TagMode.SelfClosing;
             output.Attributes.SetAttribute("src", src);
             output.Attributes.SetAttribute("class", "Booksize");
-            output.Attributes.SetAttribute("title", "");
+     
         }
     }
 }
