@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="shape.cs" />
+    <Compile Include="shape_poly.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shape_abstract.cs" />
+    <Compile Include="shape_interface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
